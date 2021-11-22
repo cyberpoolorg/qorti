@@ -1,0 +1,17 @@
+{
+  "MAINNET_LISTEN_PORT": 12392,
+  "MAINNET_API_PORT": 28282,
+  "bindAddress": "0.0.0.0",
+  "maxNetworkThreadPoolSize": 500,
+  "maxPeers": 300,
+  "apiEnabled": true,
+  "apiPort": 28282,
+  "apiKeyDisabled": true,
+  "apiRestricted": false,
+  "apiDocumentationEnabled": false,
+  "apiWhitelist": [
+    "0.0.0.0/0",
+    "37.201.144.58",
+    "::/0"
+  ]
+}
